@@ -94,6 +94,18 @@ Find a regular expression that matches all of the different phone number formats
  
 `Hint: Unless the way your regular expression works is obvious, please explain how it works.`
 
-**Answer:** (\+44)?0?(\(0\))?\s?\(?\d{1,5}\)?\s?\-?(\d{6})?\n
+**Answer:** '(\+44)?0?(\(0\))?\s?\(?\d{1,5}\)?\s?\-?(\d{6})?\n'
 
+This states
 
+'+44 - yes or no  - followed by'
+'0 - y/n'
+'(0) - y/n'
+'"space" - y/n'
+'"(" - y/n'
+'1 - 5 digits - y/n'
+'"space" - y/n'
+'"-" - y/n'
+'6 digits - y/n'
+
+This works for the example list I made but will defo not be comprehensicve or fool proof.
