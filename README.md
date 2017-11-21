@@ -60,7 +60,7 @@ Find a regular expression that will match a student number, based on the additio
  
 `Hint: Unless the way your regular expression works is obvious, please explain how it works.`
 
-**Answer:** Replace this text with your answer.
+**Answer:** \b\w?\d\d\d\d\d\d\d\d\b  - now states you can/or not have a letter followed by 8 digits.
 
 #### Question 4a
 
