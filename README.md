@@ -42,6 +42,7 @@ Find a regular expression that will match a student number.
 Unless the way your regular expression works is obvious, please explain how it works.`
 
 **Answer:** G\d\d\d\d\d\d\d\d   -  Start with capital "G" followed by 8 digits 0-9 "\d" x 8 times
+Ammended to correctionj - \bG\d\d\d\d\d\d\d\d\b - needs "\b" at start and end to signify word boundary
 
 #### Question 2
 
