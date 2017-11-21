@@ -51,7 +51,7 @@ Find a regular expression that will match a student number, based on the additio
  
 `Hint: Unless the way your regular expression works is obvious, please explain how it works, e.g. this here will match the character and that here makes sure it also works if there is no character in front of the number.`
 
-**Answer:** Replace this text with your answer.
+**Answer:** \bG?g?\d\d\d\d\d\d\d\d\b - Adding ? to deliver true or false for g OR G
 
 #### Question 3
 
