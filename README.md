@@ -109,3 +109,7 @@ This states
 '6 digits - y/n'
 
 This works for the example list I made but will defo not be comprehensicve or fool proof.
+
+Now Ammended ignore first one this one far better
+
+'(\+44)?\s?0?(\(0\))?\(?\d{4,5}\)?\s?\-?(\d{6})\n'
